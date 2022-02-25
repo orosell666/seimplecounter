@@ -10,7 +10,9 @@ import "../styles/index.css";
 function SimpleCounter(props) {
 	return (
 		<div className="bigCounter">
-			<div className="calendar">0</div>
+			<div className="calendar">
+				<i class="far fa-clock"></i>
+			</div>
 			<div className="fourth">{props.digitFour % 10}</div>
 			<div className="three">{props.digitThree % 10}</div>
 			<div className="two">{props.digitTwo % 10}</div>
